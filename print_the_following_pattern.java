@@ -4,16 +4,15 @@ class Sample
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int n,k=0;
+        int i,j,n;
         n=sc.nextInt();
-        for(int i=1;i<=n;i++)
+        for(i=n;i>=1;i--)
         {
-            for(int j=1;j<=n;j++)
+            for(j=1;j<=i;j++)
             {
-                System.out.print((char)(64+i)+" ");
+                System.out.print((char)(i+64)+" ");
             }
-            System.out.println();
+            System.out.println("");
         }
-        
     }
 }
