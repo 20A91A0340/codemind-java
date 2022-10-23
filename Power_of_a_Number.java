@@ -1,0 +1,15 @@
+import java.util.*;
+class Sample
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n,a,b,d,s;
+        n=sc.nextInt();
+        a=sc.nextInt();
+        b=sc.nextInt();
+        d=(int)Math.pow(n,a);
+        s=d%b;
+        System.out.println(s);
+    }
+}
